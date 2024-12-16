@@ -148,7 +148,6 @@ img {
 .card {
     width: 325px;
     background-color: #f4f4f4;
-    color: #f30;
     border-radius: 50px;
     border: red solid 2px;
     box-shadow: 0 4px 6px rgba(0,0,0,0.3);
@@ -186,7 +185,8 @@ img {
 }
 
 .card-button {
-    display: inline-block;
+    display: block;
+    text-align: center;
     background-color: #ff0f00;
     color: #fff;
     border: none;
@@ -283,9 +283,9 @@ img {
 }/* End of Desktop Media Query */
 
 .pgFooter {
+    text-align: center;
     margin-top: 0;
-    padding: 10%;
-    background-color: #375872;
+    padding: 5%;
+    background-color: #5C2B2B;
     color: white;
-    height: 300px;
 }
