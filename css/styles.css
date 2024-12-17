@@ -121,18 +121,22 @@ img {
     text-align: center;
 }
 
-.three{
+.three {
     background-color: #f4f4f4;
     min-height: 150px;
     text-align: center;
 }
 
-.four{
+.four {
     background-color: #f30;
     min-height: 150px;
     text-align: center;
 }
 
+.hero-one {
+    width: 750px;
+    display: flex;
+}
 
 /**** Add Card CSS Here *******/
 
