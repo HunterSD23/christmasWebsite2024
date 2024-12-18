@@ -112,7 +112,6 @@ img {
     text-shadow: 4px 4px 5px #e0e2e3;
     text-align: center;
     margin-top: 1.5em;
-    background-color: #fffcc;
 }
 
 .two {
@@ -135,7 +134,8 @@ img {
 
 .hero-one {
     width: 750px;
-    display: flex;
+    display: block;
+    padding: 1%;
 }
 
 /**** Add Card CSS Here *******/
@@ -223,6 +223,10 @@ img {
         }
     }
 
+    .hero-one {
+        float: none;
+    }
+
     .container {
         grid-template-columns: 1fr 1fr;
         grid-auto-rows: minmax(100px, auto);
@@ -253,6 +257,10 @@ img {
         justify-content: space-between;
     }
 
+    .hero-one {
+        float: left;
+    }
+
     .container {
         grid-template-columns: 1fr 1fr 1fr;
     }
@@ -273,23 +281,17 @@ img {
         grid-column: 1 / 4;
     }
 
-    .five {
-        grid-column: 1 / 4;
-    }
-
-    .six {
-        grid-column: 1 / 4;
-    }
-
-    .seven{
-        grid-column: 1 / 4;
-    }
 }/* End of Desktop Media Query */
+
+footer {
+    width: 100%;
+    background-color: #5C2B2B;
+    color: white;
+    width: 100%;
+}
 
 .pgFooter {
     text-align: center;
     margin-top: 0;
     padding: 5%;
-    background-color: #5C2B2B;
-    color: white;
 }
